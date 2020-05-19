@@ -158,18 +158,6 @@ android_app_import {
 	privileged: true,
 }
 
-
-android_app_import {
-	name: "SemcCameraUI-xxhdpi-release",
-	owner: "sony",
-	apk: "proprietary/priv-app/SemcCameraUI-xxhdpi-release/SemcCameraUI-xxhdpi-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
 android_app_import {
 	name: "SomcMovieCreator-release",
 	owner: "sony",
@@ -636,4 +624,3 @@ android_app_import {
 	},
 	soc_specific: true,
 }
-
