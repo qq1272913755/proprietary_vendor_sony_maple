@@ -24,5 +24,6 @@ LOCAL_SRC_FILES := proprietary/priv-app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_OVERRIDES_PACKAGES := SnapdragonCamera Camera2 Snap Snap2
 include $(BUILD_PREBUILT)
 endif
