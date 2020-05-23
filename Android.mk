@@ -16,7 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),maple)
 include $(CLEAR_VARS)
 LOCAL_MODULE := SemcCameraUI-xxhdpi-release
 LOCAL_MODULE_TAGS := optional
@@ -26,4 +25,3 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := SnapdragonCamera Camera2 Snap Snap2
 include $(BUILD_PREBUILT)
-endif
