@@ -1812,4 +1812,5 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON \
     SemcMusic \
     libsmwrapper \
-    libmulawdec
+    libmulawdec \
+    PowerOffAlarm
